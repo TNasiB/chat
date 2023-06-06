@@ -1,0 +1,24 @@
+.chat-view-header {
+  &__user {
+    display: grid;
+    grid-template:
+      "avatar username"
+      "avatar recent-dt";
+    margin-right: auto;
+    column-gap: 16px;
+  }
+
+  &__avatar {
+    grid-area: avatar;
+  }
+
+  &__username {
+    grid-area: username;
+  }
+
+  &__recent-dt {
+    grid-area: recent-dt;
+    font-size: 14px;
+    color: #707991;
+  }
+}

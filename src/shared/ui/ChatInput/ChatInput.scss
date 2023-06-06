@@ -1,0 +1,24 @@
+.chat-input {
+  position: relative;
+  max-width: 694px;
+  width: 100%;
+
+  &__el {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    padding-right: 40px;
+    border: none;
+    width: 100%;
+  }
+
+  &__send-btn {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+  }
+}

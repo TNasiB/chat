@@ -1,0 +1,25 @@
+.message {
+  background-color: #fff;
+  border-radius: 12px;
+  color: #011627;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 4px 12px;
+  max-width: 50%;
+  width: fit-content;
+  gap: 4px;
+
+  &__dt {
+  }
+
+  &__content {
+    margin-right: 20px;
+  }
+
+  &__footer {
+    font-size: 12px;
+    display: flex;
+    margin-left: auto;
+  }
+}
